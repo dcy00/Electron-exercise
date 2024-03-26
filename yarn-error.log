@@ -1,0 +1,54 @@
+Arguments: 
+  D:\Software\NODE\node.exe D:\Software\nodejs\node_global\node_modules\yarn\bin\yarn.js add electron-squirrel-startup
+
+PATH: 
+  D:\dowork\Electron-exercise\node_modules\.bin;D:\dowork\Electron-exercise\node_modules\.bin;D:\dowork\node_modules\.bin;D:\node_modules\.bin;D:\Software\nodejs\node_global\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Software\nodejs\node_global;D:\Software\Git\cmd;D:\Program Files (x86)\Java\bin;D:\Program Files (x86)\Java\jre\bin;;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;D:\Software\NODE\;D:\Software\Ruby27\bin;C:\Users\DCY'sComputer\AppData\Local\Microsoft\WindowsApps;D:\Software\VSCODE\Microsoft VS Code\bin;D:\Program Files (x86)\apache-maven-3.6.3\bin;;C:\Users\DCY'sComputer\AppData\Local\Programs\Fiddler;C:\Users\DCY'sComputer\AppData\Local\Microsoft\WindowsApps;C:\Users\DCY'sComputer\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  20.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\DCY'sComputer\AppData\Local\Yarn\Cache\v6\npm-universalify-0.1.2-b646f69be3942dabcecc9d6639c80dc105efaa66-integrity\node_modules\universalify\index.js' -> 'D:\dowork\Electron-exercise\node_modules\electron\node_modules\universalify\index.js'
+
+npm manifest: 
+  {
+    "name": "electron-exercise",
+    "version": "1.0.0",
+    "description": "hello-world",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron-forge start",
+      "package": "electron-forge package",
+      "make": "electron-forge make"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dcy00/Electron-exercise.git"
+    },
+    "keywords": [
+      "electron"
+    ],
+    "author": "dcy",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dcy00/Electron-exercise/issues"
+    },
+    "homepage": "https://github.com/dcy00/Electron-exercise#readme",
+    "devDependencies": {
+      "@electron-forge/cli": "^7.3.1",
+      "electron": "^29.1.5"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

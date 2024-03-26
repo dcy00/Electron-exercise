@@ -1,0 +1,29 @@
+{
+  "name": "electron-exercise",
+  "version": "1.0.0",
+  "description": "hello-world",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcy00/Electron-exercise.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "dcy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcy00/Electron-exercise/issues"
+  },
+  "homepage": "https://github.com/dcy00/Electron-exercise#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.1",
+    "electron": "^29.1.5"
+  },
+  "dependencies": {}
+}
